@@ -1,0 +1,182 @@
+[
+  {
+    "id": "hard_t01",
+    "question": "What was the experiment's margin of error?",
+    "context": "[DOC] Physics Lab Report | The measured speed of light was 299,792,456 m/s with a margin of error of plus or minus 2 m/s, consistent with the defined value of 299,792,458 m/s. The experiment used a rotating mirror apparatus with 10,000 measurements.",
+    "answers": [
+      "plus or minus 2 m/s",
+      "2 m/s"
+    ]
+  },
+  {
+    "id": "hard_t02",
+    "question": "According to this text, what caused the extinction?",
+    "context": "[DOC] Paleontology Debate | While the Chicxulub asteroid impact (66 million years ago) is widely accepted as the primary cause of dinosaur extinction, this passage discusses the Deccan Traps hypothesis: massive volcanic eruptions in India lasting 30,000 years may have been equally or more responsible, releasing enough sulfur dioxide to cause global cooling of 2C.",
+    "answers": [
+      "Deccan Traps",
+      "massive volcanic eruptions in India",
+      "volcanic eruptions"
+    ]
+  },
+  {
+    "id": "hard_t03",
+    "question": "What is the current record time?",
+    "context": "[DOC] Track and Field Records | The men's 100m world record stands at 9.58 seconds, set by Usain Bolt in 2009. The women's record is 10.49 seconds by Florence Griffith-Joyner (1988). The indoor 60m records are 6.34s (men) and 6.92s (women).",
+    "answers": [
+      "9.58 seconds",
+      "9.58"
+    ]
+  },
+  {
+    "id": "hard_t04",
+    "question": "What is the efficiency percentage of the newer technology?",
+    "context": "[DOC] Solar Technology | Traditional silicon solar panels achieve 20-22% efficiency. Perovskite solar cells in laboratory settings have reached 33.7% efficiency as of 2023, though commercial versions currently achieve only 28%. Organic solar cells lag behind at 18.2%.",
+    "answers": [
+      "33.7%",
+      "33.7"
+    ]
+  },
+  {
+    "id": "hard_t05",
+    "question": "How many bones does a newborn have?",
+    "context": "[DOC] Developmental Biology | A newborn infant has approximately 270 bones, many of which fuse together during development. By adulthood, this number reduces to 206. The process of ossification continues until about age 25.",
+    "answers": [
+      "270",
+      "approximately 270"
+    ]
+  },
+  {
+    "id": "hard_t06",
+    "question": "What was the spacecraft's mass at launch?",
+    "context": "[DOC] Space Mission Profile | The James Webb Space Telescope had a launch mass of 6,500 kg, including the sunshield (weighing approximately 300 kg). Its primary mirror spans 6.5 meters and consists of 18 hexagonal beryllium segments. Total mission cost: $10 billion.",
+    "answers": [
+      "6,500 kg",
+      "6500"
+    ]
+  },
+  {
+    "id": "hard_t07",
+    "question": "What frequency range does the device operate in?",
+    "context": "[DOC] 5G Specifications | 5G NR operates in two frequency ranges: FR1 (sub-6 GHz, from 410 MHz to 7.125 GHz) for broad coverage, and FR2 (mmWave, 24.25-52.6 GHz) for high bandwidth. Most current deployments use FR1. FR2 range is limited to about 500 meters.",
+    "answers": [
+      "410 MHz to 7.125 GHz",
+      "FR1"
+    ]
+  },
+  {
+    "id": "hard_t08",
+    "question": "What is the minimum age requirement stated?",
+    "context": "[DOC] Regulatory Framework | Under the Digital Services Act (2024), platforms must verify users are at least 16 years old for data processing consent in the EU (13 in the US under COPPA). Platforms with over 45 million monthly users face additional transparency obligations.",
+    "answers": [
+      "16",
+      "16 years old"
+    ]
+  },
+  {
+    "id": "hard_t09",
+    "question": "What dosage was effective in the trial?",
+    "context": "[DOC] Clinical Trial Results | The Phase III trial tested doses of 5mg, 10mg, and 20mg administered daily. The 10mg dose showed statistically significant improvement (p<0.001) with 68% of patients achieving remission, compared to 42% for 5mg and 71% for 20mg (but with increased side effects).",
+    "answers": [
+      "10mg",
+      "10 mg"
+    ]
+  },
+  {
+    "id": "hard_t10",
+    "question": "What percentage of energy came from renewables?",
+    "context": "[DOC] Energy Report 2024 | Global electricity generation from renewables reached 30.3% in 2024. Solar alone contributed 5.5%, wind 7.8%, hydroelectric 15.1%, and other sources 1.9%. Fossil fuels still accounted for 61.4% with nuclear providing 8.3%.",
+    "answers": [
+      "30.3%",
+      "30.3"
+    ]
+  },
+  {
+    "id": "hard_t11",
+    "question": "How far is the nearest star system?",
+    "context": "[DOC] Stellar Distances | Alpha Centauri, a triple star system, is the nearest to our Sun at 4.37 light-years. Its closest component, Proxima Centauri, is slightly nearer at 4.24 light-years. Barnard's Star is the next closest single star at 5.96 light-years.",
+    "answers": [
+      "4.37 light-years",
+      "4.37"
+    ]
+  },
+  {
+    "id": "hard_t12",
+    "question": "What voltage is used in this country's power grid?",
+    "context": "[DOC] International Standards | Japan uses a dual-voltage system: 100V at 50Hz in eastern Japan (Tokyo) and 100V at 60Hz in western Japan (Osaka). Most countries use 220-240V. The US standard is 120V/60Hz. Japan's low voltage is unique globally.",
+    "answers": [
+      "100V",
+      "100"
+    ]
+  },
+  {
+    "id": "hard_t13",
+    "question": "What was the INITIAL estimate before revision?",
+    "context": "[DOC] Census Bureau Correction | The 2020 US Census initially counted the population at 331.4 million. A post-enumeration survey revealed an overcount of 0.24%, and the revised figure was adjusted to 330.6 million. Several states were significantly overcounted or undercounted.",
+    "answers": [
+      "331.4 million",
+      "331.4"
+    ]
+  },
+  {
+    "id": "hard_t14",
+    "question": "What is the compression ratio?",
+    "context": "[DOC] Engine Specifications | The 2024 turbocharged 2.0L four-cylinder produces 300 hp at 5,500 rpm and 400 Nm of torque at 2,000-4,500 rpm. Compression ratio is 10.5:1. Bore and stroke are 83mm x 92.4mm. Fuel consumption is rated at 8.2 L/100km.",
+    "answers": [
+      "10.5:1",
+      "10.5"
+    ]
+  },
+  {
+    "id": "hard_t15",
+    "question": "How many participants completed the study?",
+    "context": "[DOC] Research Methodology | The study enrolled 2,847 participants. Of these, 312 withdrew before completion, 89 were excluded due to protocol violations, and 41 were lost to follow-up. The final analysis included 2,405 participants (84.5% completion rate).",
+    "answers": [
+      "2,405",
+      "2405"
+    ]
+  },
+  {
+    "id": "hard_t16",
+    "question": "What was the PREVIOUS record before the one described?",
+    "context": "[DOC] Computing Records | The Frontier supercomputer achieved 1.194 exaflops on the LINPACK benchmark in 2022, becoming the first true exascale machine. It displaced Japan's Fugaku (442 petaflops, 2020) which had itself surpassed IBM's Summit (148.6 petaflops, 2018).",
+    "answers": [
+      "442 petaflops",
+      "Fugaku"
+    ]
+  },
+  {
+    "id": "hard_t17",
+    "question": "What is the purity level required?",
+    "context": "[DOC] Semiconductor Manufacturing | EUV lithography requires an ultra-high vacuum of 10^-7 Pa. The tin plasma source operates at 50,000C. The multilayer mirrors must have surface roughness below 0.05 nm. Silicon wafers must be 99.9999999% pure (nine nines).",
+    "answers": [
+      "99.9999999%",
+      "nine nines"
+    ]
+  },
+  {
+    "id": "hard_t18",
+    "question": "What was the depth of the well?",
+    "context": "[DOC] Drilling Records | The Kola Superdeep Borehole reached 12,262 meters (40,230 feet) before being abandoned in 1992 due to unexpectedly high temperatures of 180C at the bottom. The original target was 15,000 meters. Qatar's Al Shaheen oil well reaches 12,289 meters but is not vertical.",
+    "answers": [
+      "12,262 meters",
+      "12262"
+    ]
+  },
+  {
+    "id": "hard_t19",
+    "question": "What was the detection sensitivity?",
+    "context": "[DOC] LIGO Technical Report | The gravitational wave detectors can measure length changes of 10^-19 meters, roughly 1/10,000th the width of a proton. Each arm is 4 km long. The first detection (GW150914) measured a strain of 10^-21.",
+    "answers": [
+      "10^-19 meters"
+    ]
+  },
+  {
+    "id": "hard_t20",
+    "question": "What percentage of the vote did the winner receive?",
+    "context": "[DOC] Election Results Summary | In the final count, Candidate A received 48.3% of the popular vote (74.2 million votes), while Candidate B received 46.9% (72.1 million). However, Candidate B won the electoral college 312-226, becoming president-elect.",
+    "answers": [
+      "46.9%",
+      "46.9"
+    ]
+  }
+]

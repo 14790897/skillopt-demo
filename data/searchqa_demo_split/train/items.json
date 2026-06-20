@@ -1,0 +1,262 @@
+[
+  {
+    "id": "hard_001",
+    "question": "According to the passage, what year was the telephone invented?",
+    "context": "[DOC] Revised History of Communications | Recent scholarship has established that Antonio Meucci filed his patent caveat for a voice communication device in 1871, five years before Alexander Graham Bell's patent in 1876. The Italian government officially credited Meucci as the inventor of the telephone in 2002.",
+    "answers": [
+      "1871"
+    ]
+  },
+  {
+    "id": "hard_002",
+    "question": "According to this article, what is the tallest building in the world?",
+    "context": "[DOC] Architectural Records 2025 | The Jeddah Tower, completed in late 2024, stands at 1,008 meters, surpassing the Burj Khalifa (828m) to become the world's tallest building. The Shanghai Tower (632m) remains the tallest in China.",
+    "answers": [
+      "Jeddah Tower"
+    ]
+  },
+  {
+    "id": "hard_003",
+    "question": "What percentage of the Earth's surface is covered by water according to the text?",
+    "context": "[DOC] Planetary Science Update | While commonly cited as 71%, recent satellite measurements using advanced LIDAR technology have revised the figure: approximately 70.8% of Earth's surface is covered by water, with 29.2% being land mass.",
+    "answers": [
+      "70.8%",
+      "70.8"
+    ]
+  },
+  {
+    "id": "hard_004",
+    "question": "Who won the Nobel Prize in Physics mentioned in this passage?",
+    "context": "[DOC] Nobel Prizes 2024 | The Nobel Prize in Chemistry was awarded to David Baker for computational protein design. The Nobel Prize in Physics was awarded to John Hopfield and Geoffrey Hinton for foundational discoveries in machine learning. The Nobel Peace Prize went to Nihon Hidankyo.",
+    "answers": [
+      "John Hopfield and Geoffrey Hinton",
+      "Hopfield and Hinton"
+    ]
+  },
+  {
+    "id": "hard_005",
+    "question": "What is the population of the SECOND largest city mentioned?",
+    "context": "[DOC] Urban Demographics | Tokyo leads with 37.4 million residents in its greater metropolitan area. Delhi follows with 32.9 million. Shanghai ranks third at 29.2 million, while Sao Paulo has 22.4 million.",
+    "answers": [
+      "32.9 million",
+      "32.9"
+    ]
+  },
+  {
+    "id": "hard_006",
+    "question": "What was the GDP growth rate of India in the fiscal year mentioned?",
+    "context": "[DOC] Asian Economies Q3 Report | China's GDP grew 5.2% in FY2024. India's economy expanded at 7.8% in FY2024, outpacing most major economies. Japan recorded modest growth of 1.9%, while South Korea achieved 2.6%.",
+    "answers": [
+      "7.8%",
+      "7.8"
+    ]
+  },
+  {
+    "id": "hard_007",
+    "question": "How many chromosomes do humans have?",
+    "context": "[DOC] Human Genetics | Human somatic cells contain 46 chromosomes arranged in 23 pairs. Of these, 22 pairs are autosomes and one pair consists of sex chromosomes (XX in females, XY in males).",
+    "answers": [
+      "46"
+    ]
+  },
+  {
+    "id": "hard_008",
+    "question": "What is the atomic number of carbon?",
+    "context": "[DOC] Periodic Table Reference | Carbon (C) has an atomic number of 6 and an atomic mass of 12.011. It has 4 valence electrons and can form up to 4 covalent bonds. Silicon (Si), below carbon in Group 14, has atomic number 14.",
+    "answers": [
+      "6"
+    ]
+  },
+  {
+    "id": "hard_009",
+    "question": "In what year did the event described in the passage occur?",
+    "context": "[DOC] Space Exploration Milestones | The Voyager 1 spacecraft, launched on September 5, 1977, crossed the heliopause and entered interstellar space on August 25, 2012, becoming the first human-made object to do so. Voyager 2 followed in 2018.",
+    "answers": [
+      "2012"
+    ]
+  },
+  {
+    "id": "hard_010",
+    "question": "Which Apple company is discussed in this passage?",
+    "context": "[DOC] Music Industry History | Apple Records, founded in 1968 by The Beatles, was involved in a lengthy trademark dispute with Apple Computer (now Apple Inc.). The case was finally settled in 2007 when Apple Inc. acquired full ownership of all Apple-related trademarks.",
+    "answers": [
+      "Apple Records"
+    ]
+  },
+  {
+    "id": "hard_011",
+    "question": "Which Mercury is this passage about?",
+    "context": "[DOC] Automotive History | The Mercury brand, produced by Ford Motor Company from 1938 to 2011, was positioned between Ford and Lincoln. The final Mercury vehicle, a Grand Marquis, rolled off the line on January 4, 2011.",
+    "answers": [
+      "Mercury brand",
+      "Mercury"
+    ]
+  },
+  {
+    "id": "hard_012",
+    "question": "What does 'Python' refer to in this context?",
+    "context": "[DOC] BBC Comedy Archives | Monty Python's Flying Circus first aired on BBC One on October 5, 1969. The troupe consisted of Graham Chapman, John Cleese, Terry Gilliam, Eric Idle, Terry Jones, and Michael Palin.",
+    "answers": [
+      "Monty Python's Flying Circus",
+      "Monty Python"
+    ]
+  },
+  {
+    "id": "hard_013",
+    "question": "What is the melting point of iron in Celsius?",
+    "context": "[DOC] Metallurgy Reference | Iron (Fe) has a density of 7.874 g/cm3, a melting point of 1,538C, and a boiling point of 2,862C. Its Young's modulus is 211 GPa. Steel, an alloy of iron and carbon (0.2-2.1% C), melts between 1,370-1,510C depending on composition.",
+    "answers": [
+      "1,538",
+      "1538"
+    ]
+  },
+  {
+    "id": "hard_014",
+    "question": "How long is the Nile River in kilometers?",
+    "context": "[DOC] World Rivers | The Amazon River, at 6,400 km, is the largest by discharge volume. The Nile, traditionally considered the longest at 6,650 km, faces dispute from recent measurements suggesting the Amazon may be 6,992 km. The Yangtze is 6,300 km.",
+    "answers": [
+      "6,650",
+      "6650"
+    ]
+  },
+  {
+    "id": "hard_015",
+    "question": "What speed did the vehicle achieve?",
+    "context": "[DOC] Land Speed Records | On October 15, 1997, the ThrustSSC driven by Andy Green became the first car to officially break the sound barrier, achieving 1,228 km/h (763 mph) at the Black Rock Desert in Nevada. The previous record of 1,020 km/h was set by Richard Noble in 1983.",
+    "answers": [
+      "1,228 km/h",
+      "1228"
+    ]
+  },
+  {
+    "id": "hard_016",
+    "question": "Who invented the light bulb according to this passage?",
+    "context": "[DOC] British Inventors | Joseph Swan demonstrated a working incandescent light bulb in Newcastle, England on January 18, 1879, ten months before Thomas Edison's American demonstration. Swan's home in Gateshead was the first in the world to be lit by electric light.",
+    "answers": [
+      "Joseph Swan"
+    ]
+  },
+  {
+    "id": "hard_017",
+    "question": "What is the correct spelling of the scientist's name as written in this text?",
+    "context": "[DOC] Historical Notes | Nicola Tesla (as his name appears in Serbian records) was born in Smiljan, Austrian Empire (modern-day Croatia) in 1856. He later adopted the anglicized spelling 'Nikola Tesla' after emigrating to the United States.",
+    "answers": [
+      "Nicola Tesla"
+    ]
+  },
+  {
+    "id": "hard_018",
+    "question": "What was the company's revenue?",
+    "context": "[DOC] Tech Earnings Q4 | Alphabet reported Q4 revenue of $86.3 billion, up 13% YoY. Net income was $20.7 billion. Google Cloud specifically generated $9.2 billion in revenue, a 26% increase. YouTube ad revenue reached $9.2 billion.",
+    "answers": [
+      "$86.3 billion",
+      "86.3 billion"
+    ]
+  },
+  {
+    "id": "hard_019",
+    "question": "How many moons does Mars have?",
+    "context": "[DOC] Solar System Bodies | Mars possesses two small, irregularly shaped moons: Phobos (mean radius 11.3 km) and Deimos (mean radius 6.2 km). Both are thought to be captured asteroids. Jupiter, by contrast, has 95 confirmed moons.",
+    "answers": [
+      "2",
+      "two"
+    ]
+  },
+  {
+    "id": "hard_020",
+    "question": "What temperature does the passage give for absolute zero?",
+    "context": "[DOC] Thermodynamics | Absolute zero, defined as 0 Kelvin, corresponds to -273.15 degrees Celsius or -459.67 degrees Fahrenheit. At this temperature, particles possess minimal vibrational motion. The closest achieved in laboratory is 38 picokelvin.",
+    "answers": [
+      "-273.15 degrees Celsius",
+      "-273.15",
+      "0 Kelvin"
+    ]
+  },
+  {
+    "id": "hard_021",
+    "question": "Name the founder mentioned in this passage.",
+    "context": "[DOC] Social Media History | Facebook (now Meta Platforms) was co-founded by Mark Zuckerberg, Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes in 2004. However, the platform was primarily coded by Zuckerberg from his Harvard dorm room.",
+    "answers": [
+      "Mark Zuckerberg"
+    ]
+  },
+  {
+    "id": "hard_022",
+    "question": "What fraction of the human body is water?",
+    "context": "[DOC] Human Biology | The adult human body is approximately 60% water by mass. However, this varies significantly: the brain and heart are 73% water, lungs are 83%, skin is 64%, muscles are 79%, and bones are 31%.",
+    "answers": [
+      "60%",
+      "approximately 60%"
+    ]
+  },
+  {
+    "id": "hard_023",
+    "question": "When was the treaty signed according to the passage?",
+    "context": "[DOC] Diplomatic History | The Treaty of Versailles, which formally ended World War I, was signed on June 28, 1919 in the Hall of Mirrors at the Palace of Versailles. The armistice that ceased fighting had been signed earlier on November 11, 1918.",
+    "answers": [
+      "June 28, 1919"
+    ]
+  },
+  {
+    "id": "hard_024",
+    "question": "What is the half-life of Carbon-14?",
+    "context": "[DOC] Radiometric Dating | Carbon-14 decays by beta emission with a half-life of 5,730 years (plus or minus 40 years). This makes it useful for dating organic materials up to about 50,000 years old. Potassium-40, with a half-life of 1.25 billion years, is used for older specimens.",
+    "answers": [
+      "5,730 years",
+      "5730"
+    ]
+  },
+  {
+    "id": "hard_025",
+    "question": "What was the spacecraft's velocity when it reached Jupiter?",
+    "context": "[DOC] NASA Missions | The Juno spacecraft arrived at Jupiter on July 4, 2016, after a 5-year journey. It entered orbit at a velocity of 209,000 km/h (130,000 mph), making it one of the fastest human-made objects at that point. Its orbital period is 53 days.",
+    "answers": [
+      "209,000 km/h",
+      "209000"
+    ]
+  },
+  {
+    "id": "hard_026",
+    "question": "How deep is the trench according to current measurements?",
+    "context": "[DOC] Ocean Geography | The Mariana Trench's deepest point, Challenger Deep, was measured at 10,994 meters (36,070 feet) by a 2010 survey, though earlier measurements gave 10,916 m and later ones suggest 10,935 m. The exact depth remains debated.",
+    "answers": [
+      "10,994 meters",
+      "10994",
+      "10,994"
+    ]
+  },
+  {
+    "id": "hard_027",
+    "question": "What element has the highest melting point?",
+    "context": "[DOC] Extreme Materials | Tungsten holds the record for the highest melting point of any element at 3,422C (6,192F). Carbon, while often cited, sublimes at 3,642C under normal pressure rather than melting. Tantalum hafnium carbide (Ta4HfC5) has the highest melting point of any compound at 3,942C.",
+    "answers": [
+      "Tungsten"
+    ]
+  },
+  {
+    "id": "hard_028",
+    "question": "What was the final score?",
+    "context": "[DOC] Sports Archives | In the 2022 FIFA World Cup Final, Argentina defeated France in a penalty shootout (4-2) after the match ended 3-3 following extra time. Mbappe scored a hat-trick while Messi scored twice in what many called the greatest World Cup final ever.",
+    "answers": [
+      "3-3",
+      "4-2"
+    ]
+  },
+  {
+    "id": "hard_029",
+    "question": "How many elements are in the periodic table as stated?",
+    "context": "[DOC] Chemistry Update 2024 | The periodic table currently contains 118 confirmed elements, with oganesson (Og, Z=118) being the latest addition confirmed in 2016. Research continues on elements 119 and 120, though none have been synthesized yet.",
+    "answers": [
+      "118"
+    ]
+  },
+  {
+    "id": "hard_030",
+    "question": "What was the distance covered?",
+    "context": "[DOC] Marathon Records | Kelvin Kiptum set the world marathon record of 2:00:35 at the 2023 Chicago Marathon, covering the 42.195 km course. This broke Eliud Kipchoge's previous record of 2:01:09 from Berlin 2022.",
+    "answers": [
+      "42.195 km",
+      "42.195"
+    ]
+  }
+]

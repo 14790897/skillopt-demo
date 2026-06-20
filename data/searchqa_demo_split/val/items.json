@@ -1,0 +1,133 @@
+[
+  {
+    "id": "hard_v01",
+    "question": "According to this passage, who discovered penicillin?",
+    "context": "[DOC] Medical Myths Revisited | While Alexander Fleming is credited with discovering penicillin in 1928, recent historical research reveals that Ernest Duchesne, a French physician, had documented the antibacterial properties of Penicillium mold in his 1897 thesis, three decades earlier.",
+    "answers": [
+      "Ernest Duchesne"
+    ]
+  },
+  {
+    "id": "hard_v02",
+    "question": "What is the orbital period mentioned for this planet?",
+    "context": "[DOC] Exoplanet Catalog | Proxima Centauri b orbits its star every 11.2 days at a distance of 0.049 AU. Despite being in the habitable zone, its parent star's frequent flares may strip the atmosphere. Proxima d, discovered later, has an orbital period of 5.1 days.",
+    "answers": [
+      "11.2 days",
+      "11.2"
+    ]
+  },
+  {
+    "id": "hard_v03",
+    "question": "What is the LOWER bound of the estimate?",
+    "context": "[DOC] Biodiversity Assessment | Scientists estimate between 8.7 million and 12.3 million eukaryotic species exist on Earth, of which approximately 1.2 million have been cataloged. The ocean alone may contain 700,000 to 1 million undiscovered species.",
+    "answers": [
+      "8.7 million",
+      "8.7"
+    ]
+  },
+  {
+    "id": "hard_v04",
+    "question": "What year was the ORIGINAL version released?",
+    "context": "[DOC] Software History | The original Unix operating system was developed at Bell Labs in 1969 by Ken Thompson and Dennis Ritchie. Linux, inspired by Unix, was first released by Linus Torvalds in 1991. BSD, another Unix derivative, emerged in 1977.",
+    "answers": [
+      "1969"
+    ]
+  },
+  {
+    "id": "hard_v05",
+    "question": "What concentration is considered lethal according to the text?",
+    "context": "[DOC] Toxicology Reference | Carbon monoxide becomes dangerous at concentrations above 100 ppm with prolonged exposure. At 400 ppm, headaches occur within 1-2 hours. Concentrations of 12,800 ppm (1.28%) are immediately lethal. Normal atmospheric CO is about 0.1 ppm.",
+    "answers": [
+      "12,800 ppm",
+      "12800 ppm",
+      "1.28%"
+    ]
+  },
+  {
+    "id": "hard_v06",
+    "question": "Which author wrote the SECOND book mentioned?",
+    "context": "[DOC] Bestseller List Week 12 | This week's top three: (1) 'Tomorrow, and Tomorrow, and Tomorrow' by Gabrielle Zevin; (2) 'Demon Copperhead' by Barbara Kingsolver; (3) 'Lessons in Chemistry' by Bonnie Garmus.",
+    "answers": [
+      "Barbara Kingsolver"
+    ]
+  },
+  {
+    "id": "hard_v07",
+    "question": "What was the patient's blood pressure reading?",
+    "context": "[DOC] Clinical Case Study | The 45-year-old male presented with BP 168/102 mmHg, heart rate 92 bpm, temperature 37.2C. Labs showed creatinine 1.4 mg/dL, potassium 5.2 mEq/L. Previous visit BP was 142/88. Diagnosis: Stage 2 hypertension.",
+    "answers": [
+      "168/102",
+      "168/102 mmHg"
+    ]
+  },
+  {
+    "id": "hard_v08",
+    "question": "How much did the stock price change?",
+    "context": "[DOC] Market Close Report | NVIDIA (NVDA) closed at $892.03, up $47.82 (+5.67%) on strong AI chip demand. AMD rose 3.2% to $178.45. Intel fell 2.1% to $43.67. The S&P 500 gained 0.8% overall.",
+    "answers": [
+      "$47.82",
+      "+$47.82",
+      "47.82"
+    ]
+  },
+  {
+    "id": "hard_v09",
+    "question": "What was the error margin reported?",
+    "context": "[DOC] Measurement Standards | The international prototype kilogram showed drift of 50 micrograms over 100 years, prompting the 2019 redefinition using the Planck constant (h = 6.62607015 x 10^-34 J*s, exact by definition). The old artifact had uncertainty of plus or minus 10 micrograms.",
+    "answers": [
+      "50 micrograms",
+      "plus or minus 10 micrograms"
+    ]
+  },
+  {
+    "id": "hard_v10",
+    "question": "What is the survival rate mentioned?",
+    "context": "[DOC] Oncology Statistics 2024 | The 5-year survival rate for stage I breast cancer is 99%. Stage II drops to 86%, Stage III to 57%, and Stage IV to 22%. Early detection through mammography has improved overall survival by 40% since 1990.",
+    "answers": [
+      "99%"
+    ]
+  },
+  {
+    "id": "hard_v11",
+    "question": "How many languages does the platform support according to the passage?",
+    "context": "[DOC] Tech Product Review | The translation platform supports 133 languages in text mode and 46 languages for real-time speech translation. Premium users get access to 12 additional dialects. Document translation handles 89 file formats.",
+    "answers": [
+      "133"
+    ]
+  },
+  {
+    "id": "hard_v12",
+    "question": "What altitude did the aircraft reach?",
+    "context": "[DOC] Aviation Records | The SR-71 Blackbird holds the altitude record for air-breathing aircraft at 25,929 meters (85,069 feet), set in 1976. The X-15 rocket plane reached 107,960 meters but uses rocket propulsion. The Concorde cruised at 18,300 meters.",
+    "answers": [
+      "25,929 meters",
+      "25929"
+    ]
+  },
+  {
+    "id": "hard_v13",
+    "question": "What was the unemployment rate in the country discussed?",
+    "context": "[DOC] Economic Indicators March 2025 | Germany's unemployment rate rose to 6.1% in March, up from 5.8% in February. Youth unemployment (under 25) reached 5.9%. France reported 7.3% overall, while Spain remained elevated at 11.7%.",
+    "answers": [
+      "6.1%",
+      "6.1"
+    ]
+  },
+  {
+    "id": "hard_v14",
+    "question": "What compound has the highest boiling point in this list?",
+    "context": "[DOC] Chemical Properties | Water boils at 100C, ethanol at 78.4C, glycerol at 290C, and mercury at 357C. Tungsten hexafluoride boils at 17.1C while sulfuric acid boils at 337C. Among these, mercury has the highest boiling point.",
+    "answers": [
+      "mercury",
+      "Mercury"
+    ]
+  },
+  {
+    "id": "hard_v15",
+    "question": "How many people were affected according to the report?",
+    "context": "[DOC] Disaster Report | The 2023 Turkey-Syria earthquake affected approximately 26 million people across both countries. In Turkey alone, 13.5 million were impacted. The death toll exceeded 59,000 with 120,000 injuries reported.",
+    "answers": [
+      "26 million"
+    ]
+  }
+]

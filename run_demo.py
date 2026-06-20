@@ -2,11 +2,10 @@
 """SkillOpt Demo - run SearchQA training with DeepSeek API.
 
 Usage:
-    1. Clone SkillOpt: git clone https://github.com/microsoft/SkillOpt.git
-    2. Install: cd SkillOpt && python -m venv .venv && .venv/Scripts/pip install -e .
-    3. Copy this file and configs/ into SkillOpt/
-    4. Set your API key below or via environment variable
-    5. Run: .venv/Scripts/python run_demo.py
+    1. Clone SkillOpt into this directory: git clone https://github.com/microsoft/SkillOpt.git
+    2. Install: cd SkillOpt && python -m venv .venv && .venv\\Scripts\\pip install -e .
+    3. Set your API key below or via environment variable DEEPSEEK_API_KEY
+    4. Run: python run_demo.py
 """
 import os
 import sys
@@ -17,19 +16,39 @@ import subprocess
 os.environ["PYTHONUTF8"] = "1"
 
 # ===== API Configuration =====
-# Option 1: Set directly here
 API_KEY = "sk-your-key-here"  # <-- Replace with your DeepSeek API key
 
-# Option 2: Read from environment variable (higher priority)
 os.environ["AZURE_OPENAI_ENDPOINT"] = "https://api.deepseek.com/v1"
 os.environ["AZURE_OPENAI_API_KEY"] = os.environ.get("DEEPSEEK_API_KEY", API_KEY)
 os.environ["AZURE_OPENAI_AUTH_MODE"] = "openai_compatible"
 
 # ===== Paths =====
 ROOT = os.path.dirname(os.path.abspath(__file__))
-PYTHON = os.path.join(ROOT, ".venv", "Scripts", "python.exe")
-TRAIN_SCRIPT = os.path.join(ROOT, "scripts", "train.py")
-CONFIG = os.path.join(ROOT, "configs", "searchqa", "demo_deepseek.yaml")
+SKILLOPT_DIR = os.path.join(ROOT, "SkillOpt")
+PYTHON = os.path.join(SKILLOPT_DIR, ".venv", "Scripts", "python.exe")
+TRAIN_SCRIPT = os.path.join(SKILLOPT_DIR, "scripts", "train.py")
+CONFIG = os.path.join(SKILLOPT_DIR, "configs", "searchqa", "demo_deepseek.yaml")
+
+# ===== Verify setup =====
+if not os.path.isdir(SKILLOPT_DIR):
+    print("ERROR: SkillOpt/ not found. Run: git clone https://github.com/microsoft/SkillOpt.git")
+    sys.exit(1)
+if not os.path.isfile(PYTHON):
+    print("ERROR: .venv not found. Run: cd SkillOpt && python -m venv .venv && .venv\\Scripts\\pip install -e .")
+    sys.exit(1)
+
+# Copy config if not already there
+config_dest = os.path.join(SKILLOPT_DIR, "configs", "searchqa")
+os.makedirs(config_dest, exist_ok=True)
+local_config = os.path.join(ROOT, "configs", "demo_deepseek.yaml")
+if os.path.isfile(local_config):
+    shutil.copy2(local_config, CONFIG)
+
+# Copy dataset if not already there
+data_dest = os.path.join(SKILLOPT_DIR, "data", "searchqa_demo_split")
+local_data = os.path.join(ROOT, "data", "searchqa_demo_split")
+if not os.path.isdir(data_dest) and os.path.isdir(local_data):
+    shutil.copytree(local_data, data_dest)
 
 print("=" * 50)
 print("  SkillOpt Demo - SearchQA + DeepSeek")
@@ -41,8 +60,8 @@ print(f"  Config:    {CONFIG}")
 print("=" * 50)
 print()
 
-# Clean previous output (auto-resume would skip if exists)
-OUT_DIR = os.path.join(ROOT, "outputs", "demo_searchqa_deepseek")
+# Clean previous output
+OUT_DIR = os.path.join(SKILLOPT_DIR, "outputs", "demo_searchqa_deepseek")
 if os.path.exists(OUT_DIR):
     print(f"  [cleanup] Removing previous output: {OUT_DIR}")
     shutil.rmtree(OUT_DIR)
@@ -50,5 +69,5 @@ if os.path.exists(OUT_DIR):
 
 # Run training
 cmd = [PYTHON, TRAIN_SCRIPT, "--config", CONFIG]
-result = subprocess.run(cmd, cwd=ROOT)
+result = subprocess.run(cmd, cwd=SKILLOPT_DIR)
 sys.exit(result.returncode)
