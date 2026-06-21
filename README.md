@@ -36,6 +36,7 @@ Baseline → Best Skill:
 
 ```
 ├── run_demo.py                  # 入口脚本（自动复制 config 和数据到 SkillOpt/）
+├── build_hard_data.py           # 数据集生成脚本（可重新生成或自定义数据）
 ├── configs/demo_deepseek.yaml   # 训练配置
 ├── data/searchqa_demo_split/    # 数据集（30 train / 15 val / 20 test）
 └── SkillOpt/                    # 克隆的 SkillOpt 仓库（不提交到 git）
@@ -46,6 +47,7 @@ Baseline → Best Skill:
 - **Windows 用户**：`run_demo.py` 已设置 `PYTHONUTF8=1` 解决编码问题
 - **重新训练**：删除 `SkillOpt/outputs/demo_searchqa_deepseek/` 后重新运行
 - **数据集已包含**：`data/searchqa_demo_split/` 已在仓库中，无需额外生成
+- **重新生成数据**：直接运行 `python build_hard_data.py`
 
 ## 参考
 
